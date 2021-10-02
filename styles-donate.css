@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Space Mono', monospace;
+    font-weight: 100px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient(to bottom right, rgba(16.10554028302431, 0.911981463432312, 109.43750202655792, 1) 0.4103437066078186%, rgba(2.883091256953776, 0.23906227201223373, 19.12500075995922, 1) 85.30839085578918%);
+	background-size: cover;
+   
+
+}
+
+.logo{
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+    width: 387.017px;
+    height: 138.733px;
+}
+
+.logo .logo-img {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 120px;
+}
+
+.logo .logo-yazi{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 60px;
+}
+
+.explanation{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+    height: 300px;
+    color: #fff;
+}
+
+
+
+.explanation .explanation-title{
+    
+    font-size: 41px;
+}
+
+.explanation .explanation-write{
+    margin-top: 50px;
+    width: 1050px;
+    height: 111px;
+    font-size: 25px;
+}
+
+section{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.donate{
+	display: flex;
+	margin-right: auto;
+    margin-left: auto;
+    
+    
+    
+}
+
+.donate .donate-box{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    float: left;
+    margin:25px;
+    height: 200px;
+    color: #FFFFFF;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.donate .donate-box img{
+    border-radius: 20px;
+	display: block; margin: auto;
+    margin-top: 25px;
+    width: 200px;
+} 
+
+
+.donate .donate-box span{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.footer{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
