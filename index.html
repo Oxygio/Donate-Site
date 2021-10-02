@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OXYG | Donate </title>
     <link rel="stylesheet" href="styles-donate.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -30,42 +31,43 @@
         <div class="donate">
             <div class="donate-box">
                 <img src="images/btc.png" alt="BTC">
-
-                <Span>Copy Address</Span>
+                <p id="text1" hidden>bc1qr4jdyjvk5zq6x02vsfek9tfpa6tgykcwntp38r</p>
+                <Span><button onclick="copy('text1')">Copy Address</button></Span>
             </div>
 
             <div class="donate-box">
                 <img src="images/eth.png" alt="ETH">
-
-                <Span>Copy Address</Span>
+                <p id="text2" hidden>0x999515fe59e09AB9d4524E363C8cbAf1D5A01074</p>
+                <Span><button onclick="copy('text2')">Copy Address</button></Span>
             </div>
 
             <div class="donate-box">
                 <img src="images/ltc.png" alt="LTC">
-
-                <Span>Copy Address</Span>
+                <p id="text3" hidden>LgdRBdZeywBHUWDDM3dHUqk5z9W6Hi2y7k</p>
+                <Span><button onclick="copy('text3')">Copy Address</button></Span>
             </div>
 
             <div class="donate-box">
                 <img src="images/bnb.png" alt="BNB">
-
-                <Span>Copy Address</Span>
+                <p id="text4" hidden>bnb1pdmcmak4l7fk8q2f5ct6p4fmhf9qzlmcpcd47u</p>
+                <Span><button onclick="copy('text4')">Copy Address</button></Span>
             </div>
 
             <div class="donate-box">
                 <img src="images/tron.png" alt="TRX">
-
-                <Span>Copy Address</Span>
+                <p id="text5" hidden>THDA94fd9HJ8B9BXd35wUWuFE1KnY6zj6f</p>
+                <Span><button onclick="copy('text5')">Copy Address</button></Span>
             </div>
         </div>
     </section>
 
 <footer>
     <div class="footer">
-        <Span>Copyright © 2021 All rights reserved. Make with ❤!?</Span>
+        <p class="footer-yazi">Copyright © 2021 All rights reserved. Make with ❤!?</p>
     </div>
 </footer>
     
+
 </body>
 
 </html>
