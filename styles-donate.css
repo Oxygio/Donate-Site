@@ -5,7 +5,7 @@
     font-weight: 100px;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    boxx-sizing: border-boxx;
 }
 
 body{
@@ -45,7 +45,11 @@ body{
     color: #000;
 }
 
-
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
 
 .explanation .explanation-title{
     
@@ -60,14 +64,14 @@ body{
 }
 
 
-.donate{
+.Box_DIV{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.donate .donate-box{
+.Box_DIV .boxx{
     display: flex;
     flex-direction: column;
 	align-items: center;
@@ -79,10 +83,10 @@ body{
     height: 300px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    boxx-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.donate .donate-box img{
+.Box_DIV .boxx img{
     border-radius: 20px;
 	display: block; margin: auto;
     margin-top: 25px;
@@ -90,7 +94,7 @@ body{
 } 
 
 
-.donate .donate-box span{
+.Box_DIV .boxx span{
     display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -99,7 +103,7 @@ body{
     
 }
 
-.donate .donate-box span button{
+.Box_DIV .boxx span button{
     text-decoration: none;
     color: #000;
     background-color: rgba(255, 255, 255, 0);
@@ -109,7 +113,7 @@ body{
 
 }
 
-.donate .donate-box span button:hover{
+.Box_DIV .boxx span button:hover{
     cursor:pointer;
 }
 
@@ -158,7 +162,7 @@ body{
         font-size: 40px;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 15px;
     }
 
@@ -202,30 +206,34 @@ body{
         font-weight: 360;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 20px;
     }
 
-    .donate .donate-box{
+    .Box_DIV .boxx{
         margin:20px;
         width: 200px;
         height: 250px;
 
     }
     
-    .donate .donate-box img{
+    .Box_DIV .boxx img{
         border-radius: 20px;
         margin-top: 20px;
         width: 160px;
     } 
     
     
-    .donate .donate-box span{
+    .Box_DIV .boxx span{
         margin-bottom: 25px;
         
     }
     
-    .donate .donate-box span button{
+    .Box_DIV .boxx span button{
+        font-size: 20px;
+    }
+    
+    a{
         font-size: 20px;
     }
 
@@ -269,7 +277,7 @@ body{
         font-weight: 330;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 15px;
     }
 
@@ -296,30 +304,30 @@ body{
         font-weight: 330;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 15px;
     }
 
-    .donate .donate-box{
+    .Box_DIV .boxx{
         margin:20px;
         width: 180px;
         height: 220px;
         border-radius: 20px;
     }
     
-    .donate .donate-box img{
+    .Box_DIV .boxx img{
         border-radius: 20px;
         margin-top: 15px;
         width: 150px;
     } 
     
     
-    .donate .donate-box span{
+    .Box_DIV .boxx span{
         margin-bottom: 15px;
         
     }
     
-    .donate .donate-box span button{
+    .Box_DIV .boxx span button{
         font-size: 20px;
     }
 
@@ -346,30 +354,38 @@ body{
         font-weight: 330;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 13px;
     }
 
-    .donate .donate-box{
+    .Box_DIV .boxx{
         margin:20px;
         width: 160px;
         height: 200px;
     }
     
-    .donate .donate-box img{
+    .Box_DIV .boxx img{
         border-radius: 15px;
         margin-top: 15px;
         width: 130px;
     } 
     
     
-    .donate .donate-box span{
+    .Box_DIV .boxx span{
         margin-bottom: 17px;
         
     }
     
-    .donate .donate-box span button{
+    .Box_DIV .boxx span button{
         font-size: 18px;
+    }
+
+    a{
+        font-size: 18px;
+    }
+
+    .Box_DIV .boxx p{
+        font-size: 14px;
     }
 
     .footer .footer-yazi{
@@ -396,33 +412,42 @@ body{
         font-weight: 330;
     }
 
-    .donate{
+    .Box_DIV{
         margin-top: 10px;
     }
 
-    .donate .donate-box{
+    .Box_DIV .boxx{
         margin: 17.5px;
         width: 140px;
         height: 180px;
     }
     
-    .donate .donate-box img{
+    .Box_DIV .boxx img{
         border-radius: 12.5px;
         margin-top: 10px;
         width: 120px;
     } 
     
     
-    .donate .donate-box span{
+    .Box_DIV .boxx span{
         margin-bottom: 18px;
         
     }
     
-    .donate .donate-box span button{
+    .Box_DIV .boxx span button{
         font-size: 16px;
+    }
+
+    a{
+        font-size: 16px;
+    }
+
+    .Box_DIV .boxx p{
+        font-size: 12px;
     }
 
     .footer .footer-yazi{
         font-size: 11.5px;
     }
 }
+
